@@ -4,7 +4,7 @@ An Alfred workflow letting you set a timer on your MAC's menubar. When the time 
 ## Preview
 ![N|Demo](https://raw.githubusercontent.com/siyahmadde/timer-workflow/master/demo.gif)
 ![N|Demo1](https://raw.githubusercontent.com/siyahmadde/timer-workflow/master/preview.png)
-![N|Demo2](https://raw.githubusercontent.com/siyahmadde/timer-workflow/master/preview1.png)
+![N|Demo2](https://raw.githubusercontent.com/siyahmadde/timer-workflow/master/preview2.png)
 
 # Thanks
 This workflow is built on top of 2 other repositories.
