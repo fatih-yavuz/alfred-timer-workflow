@@ -7,8 +7,8 @@ An Alfred workflow letting you set a timer on your MAC's menubar. When the time 
 # Thanks
 This workflow is built on top of 2 other repositories.
 
-  - [hue-alfred-workflow] by [Benjamin Knight]
-  - [bitbar-countdown-timer] by [Chris Yuen]
+  - [hue-alfred-workflow] by Benjamin Knight
+  - [bitbar-countdown-timer] by Chris Yuen
   - inspired by [Yiğit Konur]
  
 Thanks all!
