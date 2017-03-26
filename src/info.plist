@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>fatih-alfred-workflow</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>084EF71B-5AA5-46D6-A9E6-EE19AF04F3D5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CFDFE33B-7FFC-4F4D-A692-80C56EDFF968</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3E49D8E7-3290-4C0F-A00E-31A96C8DA163</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E57B0A2C-A834-4643-B74F-E32927BF48CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>425172DD-9CFB-475E-95A6-04C05CE53DAE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E2D21CFC-F8E6-44C8-978B-26F24EE4EA43</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C2D46205-1511-466E-ADC0-DD721E02825B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6525BBF9-9556-4485-B878-A247A1828701</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CFDFE33B-7FFC-4F4D-A692-80C56EDFF968</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>767EC444-BEF1-4F5E-80FC-6956E3C7BB67</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6525BBF9-9556-4485-B878-A247A1828701</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E2D21CFC-F8E6-44C8-978B-26F24EE4EA43</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>084EF71B-5AA5-46D6-A9E6-EE19AF04F3D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E57B0A2C-A834-4643-B74F-E32927BF48CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CFDFE33B-7FFC-4F4D-A692-80C56EDFF968</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Fatih Yavuz</string>
+	<key>description</key>
+	<string>Know when you need to stop.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Timer</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>100</integer>
+				<key>script</key>
+				<string>&lt;?php
+
+$query = $argv[1];
+
+if(stripos($query,'s') !== false) {
+	$query = explode('s',$query)[0];
+}
+
+elseif(stripos($query,'m') !== false) {
+	$query = explode('m',$query)[0] * 60;
+}
+elseif(stripos($query,'h') !== false) {
+	$query = explode('h',$query)[0] * 60 * 60;
+}
+
+
+echo $query;
+
+?&gt;</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E2D21CFC-F8E6-44C8-978B-26F24EE4EA43</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>timer</string>
+				<key>subtext</key>
+				<string>When would you like to stop?</string>
+				<key>text</key>
+				<string>Timer</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>425172DD-9CFB-475E-95A6-04C05CE53DAE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>import logic.api
+
+IGNORE_QUERIES = ('colorpicker', 'help')
+
+time = r'''{query}'''
+
+query = "lights:all:reminder:" + time
+
+if not query.startswith(IGNORE_QUERIES):
+	api = logic.api.HueAPI()
+	api.execute(query)</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>084EF71B-5AA5-46D6-A9E6-EE19AF04F3D5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query=$1
+
+/Users/fatih/Documents/Bitbar-Plugins/countdown_timer.1s.rb $query;</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C2D46205-1511-466E-ADC0-DD721E02825B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Timer</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>CFDFE33B-7FFC-4F4D-A692-80C56EDFF968</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>-timer connect</string>
+				<key>subtext</key>
+				<string>Press the button on the bridge then use this to enable the workflow. Optionally specify the bridge's IP.</string>
+				<key>text</key>
+				<string>Connects to Hue bridge</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>3E49D8E7-3290-4C0F-A00E-31A96C8DA163</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>import logic.setup
+query = r'''{query}'''
+logic.setup.setup(query)</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E57B0A2C-A834-4643-B74F-E32927BF48CE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>-timer install</string>
+				<key>subtext</key>
+				<string>Runs a set of bash commands to put necessary files to right places</string>
+				<key>text</key>
+				<string>Timer installation</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>767EC444-BEF1-4F5E-80FC-6956E3C7BB67</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>chmod 755 "countdown_timer.1s.rb";
+you="$(whoami)";
+install_path="/Users/$you/Documents/Bitbar-Plugins";
+mkdir -p $install_path;
+file_path="$install_path/countdown_timer.1s.rb";
+cp "countdown_timer.1s.rb" "$file_path";
+ln -s "$file_path" "/usr/local/bin/countdown";
+chmod 755 "/usr/local/bin/countdown";</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6525BBF9-9556-4485-B878-A247A1828701</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>https://github.com/benknight/hue-alfred-workflow/blob/master/README.md</string>
+	<key>uidata</key>
+	<dict>
+		<key>084EF71B-5AA5-46D6-A9E6-EE19AF04F3D5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>3E49D8E7-3290-4C0F-A00E-31A96C8DA163</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>380</integer>
+		</dict>
+		<key>425172DD-9CFB-475E-95A6-04C05CE53DAE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>6525BBF9-9556-4485-B878-A247A1828701</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>767EC444-BEF1-4F5E-80FC-6956E3C7BB67</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>C2D46205-1511-466E-ADC0-DD721E02825B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>280</integer>
+			<key>ypos</key>
+			<integer>230</integer>
+		</dict>
+		<key>CFDFE33B-7FFC-4F4D-A692-80C56EDFF968</key>
+		<dict>
+			<key>xpos</key>
+			<integer>790</integer>
+			<key>ypos</key>
+			<integer>240</integer>
+		</dict>
+		<key>E2D21CFC-F8E6-44C8-978B-26F24EE4EA43</key>
+		<dict>
+			<key>xpos</key>
+			<integer>280</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>E57B0A2C-A834-4643-B74F-E32927BF48CE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<integer>380</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/siyahmadde/timer-workflow</string>
+</dict>
+</plist>
