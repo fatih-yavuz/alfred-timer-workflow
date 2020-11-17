@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>io.github.fatih-yavuz.alfred-timer-workflow</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>084EF71B-5AA5-46D6-A9E6-EE19AF04F3D5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CFDFE33B-7FFC-4F4D-A692-80C56EDFF968</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>301372FE-B41A-47C9-BBC6-CE1786173728</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>74D70098-9CA1-40B2-876E-EBD556AA0493</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3FDDF9A5-1157-4769-8276-F8DFEF8FD423</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CFDFE33B-7FFC-4F4D-A692-80C56EDFF968</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>40BA60D7-D4E9-42B5-9C67-B463B6FCCBC6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45AC3E21-C695-4269-A9EA-884D21D32D57</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>76F6B2CC-6526-4132-8CA5-A0FBBC5398AB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>301372FE-B41A-47C9-BBC6-CE1786173728</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>425172DD-9CFB-475E-95A6-04C05CE53DAE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>084EF71B-5AA5-46D6-A9E6-EE19AF04F3D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3FDDF9A5-1157-4769-8276-F8DFEF8FD423</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>45AC3E21-C695-4269-A9EA-884D21D32D57</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>227ED00D-F141-4EA4-94C4-BE2382C151C1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>74D70098-9CA1-40B2-876E-EBD556AA0493</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>094F426E-B6BD-430F-9B8B-3EBD4BF8BB1F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>753C5013-7C57-4FFA-8AF6-5F2BD5FC19D0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45AC3E21-C695-4269-A9EA-884D21D32D57</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>301372FE-B41A-47C9-BBC6-CE1786173728</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>76F6B2CC-6526-4132-8CA5-A0FBBC5398AB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>02F3AB57-7B5C-4B91-B85A-55DDA7089658</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B2B1A536-0CFC-4264-B14C-A4B67F146108</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>636748CD-9890-4E9D-A12E-46C9EE09F40A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CE425E0B-D48D-4CA9-B6C6-6725C5EF6FBA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B2B1A536-0CFC-4264-B14C-A4B67F146108</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F32205F5-0A51-41D4-BC20-06DEF3CC2252</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>753C5013-7C57-4FFA-8AF6-5F2BD5FC19D0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>40BA60D7-D4E9-42B5-9C67-B463B6FCCBC6</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Fatih Yavuz</string>
+	<key>description</key>
+	<string>Know when you need to stop.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Timer</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>is_bitbar_installed() {
+  ls /Applications/BitBar.app &gt;/dev/null
+}
+
+is_bitbar_running() {
+  pgrep BitBar &gt;/dev/null
+}
+
+is_bitbar_plugin_folder_defined() {
+  defaults read com.matryer.BitBar pluginsDirectory &gt;/dev/null
+}
+
+get_bitbar_plugins_folder() {
+  defaults read com.matryer.BitBar pluginsDirectory
+}
+
+launch_bitbar() {
+  open /Applications/BitBar.app
+}
+
+define_bitbar_plugins_folder() {
+  PLUGINS_DIR=${HOME}/Documents/Bitbar-Plugins
+  mkdir ${PLUGINS_DIR}
+  defaults write com.matryer.BitBar pluginsDirectory -string ${PLUGINS_DIR}
+}
+
+download_countdown_timer() {
+  curl https://raw.githubusercontent.com/kizzx2/bitbar-countdown-timer/a27f8b42e7d89c00bc0d04b4f8d2eca906e549c4/countdown_timer.1s.rb -o ${PLUGINS_DIR}/countdown_timer.1s.rb
+  chmod +x ${PLUGINS_DIR}/countdown_timer.1s.rb
+}
+
+is_countdown_timer_installed() {
+  PLUGINS_DIR=${HOME}/Documents/Bitbar-Plugins
+  ls ${PLUGINS_DIR}/countdown_timer.1s.rb &gt;/dev/null
+}
+
+kill_bitbar() {
+  ps -ef | grep 'BitBar' | grep -v grep | awk '{print $2}' | xargs kill -9
+}
+
+launch_bitbar() {
+  open /Applications/BitBar.app
+}
+
+if ! is_bitbar_installed; then
+  echo "Error: BitBar is not installed. You can run -timer setup"
+  exit
+fi
+
+if ! is_bitbar_running; then
+  launch_bitbar
+fi
+
+if ! is_bitbar_running; then
+  echo "Error: BitBar cannot be launched"
+  exit
+fi
+
+defaults delete com.matryer.BitBar pluginsDirectory
+if ! is_bitbar_plugin_folder_defined; then
+  define_bitbar_plugins_folder
+fi
+
+if ! is_countdown_timer_installed; then
+  exit
+  download_countdown_timer
+  kill_bitbar
+  launch_bitbar
+fi
+
+query=$@
+
+$(get_bitbar_plugins_folder)/countdown_timer.1s.rb ${query}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>084EF71B-5AA5-46D6-A9E6-EE19AF04F3D5</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>timer</string>
+				<key>subtext</key>
+				<string>When would you like to stop?</string>
+				<key>text</key>
+				<string>Timer</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>425172DD-9CFB-475E-95A6-04C05CE53DAE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Timer</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>CFDFE33B-7FFC-4F4D-A692-80C56EDFF968</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>get_blinker() {
+  if [ ! -f "${HOME}/.timer-workflow" ]; then
+    echo "groups:0"
+  else
+    cat "${HOME}/.timer-workflow"
+  fi
+}
+
+query=$@
+processed_query=$(php process.php ${query})
+TARGET=$(get_blinker)
+command="${TARGET}:reminder:${processed_query}"
+cd hue;
+/usr/bin/python -m logic.action "${command}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3FDDF9A5-1157-4769-8276-F8DFEF8FD423</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>keyword</key>
+				<string>-timer</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Connecting to bridge...</string>
+				<key>script</key>
+				<string>cd hue
+/usr/bin/python -m logic.filters "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Control the state of Hue lights for Timer.</string>
+				<key>title</key>
+				<string>Timer Hue</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F32205F5-0A51-41D4-BC20-06DEF3CC2252</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>function color_picker($action) {
+	$hex = `./hue/colorpick -startColor ffffff -mode 6`;
+	$action = str_replace('&lt;color&gt;', $hex, $action);
+	return `osascript -e 'tell application "Alfred 3" to search "hue $action"'`;
+}
+
+$q = &lt;&lt;&lt;EOD
+{query}
+EOD;
+
+$control = explode(' ', $q);
+$action = $control[1];
+color_picker($action);</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>227ED00D-F141-4EA4-94C4-BE2382C151C1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Hue</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>094F426E-B6BD-430F-9B8B-3EBD4BF8BB1F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>753C5013-7C57-4FFA-8AF6-5F2BD5FC19D0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^colorpicker.*</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>45AC3E21-C695-4269-A9EA-884D21D32D57</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^(?!colorpicker).*</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>76F6B2CC-6526-4132-8CA5-A0FBBC5398AB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>40BA60D7-D4E9-42B5-9C67-B463B6FCCBC6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application "Alfred 3" to search "hue "</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>02F3AB57-7B5C-4B91-B85A-55DDA7089658</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>matchstring</key>
+				<string>^(?!colorpicker).*</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>301372FE-B41A-47C9-BBC6-CE1786173728</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>/usr/bin/python3 set_blinker.py "{query}"
+cd hue
+/usr/bin/python -m logic.action "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>74D70098-9CA1-40B2-876E-EBD556AA0493</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>#!/bin/bash
+
+is_brew_installed() {
+  which brew &gt;/dev/null
+}
+
+install_brew() {
+  echo 'installing brew'
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+}
+
+is_bitbar_installed() {
+  ls /Applications/BitBar.app &gt;/dev/null
+}
+
+is_bitbar_running() {
+  pgrep BitBar &gt;/dev/null
+}
+
+is_bitbar_plugin_folder_defined() {
+  defaults read com.matryer.BitBar pluginsDirectory &gt;/dev/null
+}
+
+kill_bitbar() {
+  ps -ef | grep 'BitBar' | grep -v grep | awk '{print $2}' | xargs kill -9
+}
+
+define_bitbar_plugins_folder() {
+  echo "Plugins dir is being set automatically to ~/Documents/Bitbar-Plugins"
+  PLUGINS_DIR=${HOME}/Documents/Bitbar-Plugins
+  mkdir ${PLUGINS_DIR}
+  defaults write com.matryer.BitBar pluginsDirectory -string ${PLUGINS_DIR}
+}
+
+get_bitbar_plugins_folder() {
+  defaults read com.matryer.BitBar pluginsDirectory
+}
+
+install_bitbar() {
+  echo 'installing bitbar'
+  brew cask install bitbar
+}
+
+launch_bitbar() {
+  echo 'opening bitbar'
+  open /Applications/BitBar.app
+}
+
+download_countdown_timer() {
+  echo 'downloading countdown timer'
+  curl https://raw.githubusercontent.com/kizzx2/bitbar-countdown-timer/a27f8b42e7d89c00bc0d04b4f8d2eca906e549c4/countdown_timer.1s.rb -o ${PLUGINS_DIR}/countdown_timer.1s.rb
+  chmod +x ${PLUGINS_DIR}/countdown_timer.1s.rb
+}
+
+if ! is_brew_installed; then
+  install_brew
+fi
+
+if ! is_bitbar_installed; then
+  install_bitbar
+fi
+
+if ! is_bitbar_plugin_folder_defined; then
+  define_bitbar_plugins_folder
+fi
+
+PLUGINS_DIR=$(get_bitbar_plugins_folder)
+
+download_countdown_timer
+kill_bitbar
+launch_bitbar</string>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>B2B1A536-0CFC-4264-B14C-A4B67F146108</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>-timer setup</string>
+				<key>subtext</key>
+				<string>Setup timer dependencies</string>
+				<key>text</key>
+				<string>Setup Dependencies</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>CE425E0B-D48D-4CA9-B6C6-6725C5EF6FBA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>tell application "Terminal"
+	if not (exists window 1) then reopen
+    activate
+    delay 0.5
+    tell application "System Events"
+        keystroke "v" using command down
+        keystroke return
+    end tell
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>636748CD-9890-4E9D-A12E-46C9EE09F40A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>https://github.com/benknight/hue-alfred-workflow/blob/master/README.md</string>
+	<key>uidata</key>
+	<dict>
+		<key>02F3AB57-7B5C-4B91-B85A-55DDA7089658</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>520</integer>
+		</dict>
+		<key>084EF71B-5AA5-46D6-A9E6-EE19AF04F3D5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>094F426E-B6BD-430F-9B8B-3EBD4BF8BB1F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>740</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>227ED00D-F141-4EA4-94C4-BE2382C151C1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>301372FE-B41A-47C9-BBC6-CE1786173728</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>540</integer>
+		</dict>
+		<key>3FDDF9A5-1157-4769-8276-F8DFEF8FD423</key>
+		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>40BA60D7-D4E9-42B5-9C67-B463B6FCCBC6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
+			<key>ypos</key>
+			<integer>490</integer>
+		</dict>
+		<key>425172DD-9CFB-475E-95A6-04C05CE53DAE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>45AC3E21-C695-4269-A9EA-884D21D32D57</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>440</integer>
+		</dict>
+		<key>636748CD-9890-4E9D-A12E-46C9EE09F40A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>770</integer>
+		</dict>
+		<key>74D70098-9CA1-40B2-876E-EBD556AA0493</key>
+		<dict>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>630</integer>
+		</dict>
+		<key>753C5013-7C57-4FFA-8AF6-5F2BD5FC19D0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
+			<key>ypos</key>
+			<integer>440</integer>
+		</dict>
+		<key>76F6B2CC-6526-4132-8CA5-A0FBBC5398AB</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>490</integer>
+		</dict>
+		<key>B2B1A536-0CFC-4264-B14C-A4B67F146108</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>770</integer>
+		</dict>
+		<key>CE425E0B-D48D-4CA9-B6C6-6725C5EF6FBA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>110</integer>
+			<key>ypos</key>
+			<integer>770</integer>
+		</dict>
+		<key>CFDFE33B-7FFC-4F4D-A692-80C56EDFF968</key>
+		<dict>
+			<key>xpos</key>
+			<integer>750</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>F32205F5-0A51-41D4-BC20-06DEF3CC2252</key>
+		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/fatih-yavuz/alfred-timer-workflow</string>
+</dict>
+</plist>

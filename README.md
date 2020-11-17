@@ -15,31 +15,29 @@ This workflow is built on top of 2 other repositories.
  
 Thanks all!
 
-# Requirements
-  - Make sure that you have a [BitBar] extension.
-  - BitBar plugin folder must be installed ~/Documents/Bitbar-Plugins/
-  - You need [Alfred] to run the workflow
+# Installation
+  - Import the workflow
+  - run `-timer setup` on Alfred
+  - run `-timer` then select `Link with Hue Bridge`
 
 # Usage
-First run the install command
+## Select which lights/groups to blink
+- run `-timer` on Alfred
+- Select the light or group to set as blinker
+## Set up timer
 ```sh
--timer install
-```
-Click the button on your Hue Bridge then run the command
-```sh
--timer connect
-```
-Enjoy the workflow
-```sh
-timer 10s do stuff
-```
-```sh
-timer 1m 1 do stuff
-```
-```sh
-timer 1h do stuff
+timer 10s do stuff #Sets up for 10 seconds
+timer 1m 1 doing stuff #Sets up for 1 minute
+timer 1h something #Sets up for 1 hour
 ```
 
+# Support
+If you need any support or have any question, please feel free to open an issue or contact me.
+- fatihjy@gmail.com
+- https://twitter.com/fatih24yavuz
+
+# Contribution
+Any contribution is welcomed and will be credited. You can contact me if you would like to contribute 
 
    [hue-alfred-workflow]: https://github.com/benknight/hue-alfred-workflow
    [bitbar-countdown-timer]: https://github.com/kizzx2/bitbar-countdown-timer
