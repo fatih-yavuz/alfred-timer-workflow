@@ -382,7 +382,7 @@ query=$@
 processed_query=$(php process.php ${query})
 TARGET=$(get_blinker)
 command="${TARGET}:reminder:${processed_query}"
-cd hue;
+cd hue-alfred-workflow;
 /usr/bin/python -m logic.action "${command}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -424,7 +424,7 @@ cd hue;
 				<key>runningsubtext</key>
 				<string>Connecting to bridge...</string>
 				<key>script</key>
-				<string>cd hue
+				<string>cd hue-alfred-workflow
 /usr/bin/python -m logic.filters "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -607,7 +607,7 @@ color_picker($action);</string>
 				<integer>4</integer>
 				<key>script</key>
 				<string>/usr/bin/python3 set_blinker.py "{query}"
-cd hue
+cd hue-alfred-workflow
 /usr/bin/python -m logic.action "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>

@@ -10,5 +10,5 @@ query=$@
 processed_query=$(php process.php ${query})
 TARGET=$(get_blinker)
 command="${TARGET}:reminder:${processed_query}"
-cd hue
+cd hue-alfred-workflow
 /usr/bin/python -m logic.action "${command}"
