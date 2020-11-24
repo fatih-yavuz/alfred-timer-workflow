@@ -1,3 +1,0 @@
-[submodule "src/hue"]
-	path = hue
-	url = https://github.com/benknight/hue-alfred-workflowhu
