@@ -1,5 +1,5 @@
 # Information
-An Alfred workflow letting you set a timer on your MAC's menubar. When the time is up, your Hue lights blink.
+An Alfred workflow letting you set a timer on your MAC's menubar. When the time is up, your Hue lights blink. You can download it from [packal]
 
 ## Preview
 ![N|Demo](https://raw.githubusercontent.com/siyahmadde/timer-workflow/master/demo.gif)
@@ -44,3 +44,4 @@ Any contribution is welcomed and will be credited. You can contact me if you wou
    [Yiğit Konur]: https://github.com/yigitkonur
    [BitBar]: https://getbitbar.com/
    [Alfred]: https://www.alfredapp.com/
+   [packal]: http://www.packal.org/workflow/alfred-timer-workflow
