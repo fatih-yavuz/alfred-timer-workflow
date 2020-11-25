@@ -764,7 +764,7 @@ end tell</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>https://github.com/benknight/hue-alfred-workflow/blob/master/README.md</string>
+	<string>https://github.com/fatih-yavuz/alfred-timer-workflow/blob/master/README.md</string>
 	<key>uidata</key>
 	<dict>
 		<key>02F3AB57-7B5C-4B91-B85A-55DDA7089658</key>
