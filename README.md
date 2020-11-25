@@ -47,9 +47,9 @@ This workflow is built on top of 2 other repositories.
   - inspired by [Yiğit Konur]
   
   
-    [hue-alfred-workflow]: https://github.com/benknight/hue-alfred-workflow
-   [bitbar-countdown-timer]: https://github.com/kizzx2/bitbar-countdown-timer
-   [Yiğit Konur]: https://github.com/yigitkonur
-   [BitBar]: https://getbitbar.com/
-   [Alfred]: https://www.alfredapp.com/
-   [packal]: http://www.packal.org/workflow/alfred-timer-workflow
+[hue-alfred-workflow]: https://github.com/benknight/hue-alfred-workflow
+[bitbar-countdown-timer]: https://github.com/kizzx2/bitbar-countdown-timer
+[Yiğit Konur]: https://github.com/yigitkonur
+[BitBar]: https://getbitbar.com/
+[Alfred]: https://www.alfredapp.com/
+[packal]: http://www.packal.org/workflow/alfred-timer-workflow
